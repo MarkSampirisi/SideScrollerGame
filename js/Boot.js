@@ -1,28 +1,40 @@
+// Source Filename: SideScroller
+// Author: Mark Sampirisi
+// Last Modified By: Mark Sampirisi
+// Date last Modified: Nov 14, 2014
+// Description: This is a mario-like side scrolling game made with Phaser.
+// It has "runner" style gameplay. The player must jump and duck over obstacles,
+// and collect coins to add to their highscore.
+
+//This is the boot/loading screen. It displays an image to let the player know that the game is loading.
+// Current Version: v. 1.0
+// Version History: https://github.com/MarkSampirisi/SideScrollerGame
+
 var SideScroller = SideScroller || {};
 
 SideScroller.Boot = function () { };
 
-//setting game configuration and loading the assets for the loading screen
+//loading game settings and assets for the loading screen
 SideScroller.Boot.prototype = {
     preload: function () {
-        //assets for use in the loading screen
-        this.load.image('preloadbar', 'assets/images/preloader-bar.png');
+        //loading screen image
+        this.load.image('loadingImage', 'assets/images/loadingImage.gif');
     },
     create: function () {
-        //loading screen background
-        this.game.stage.backgroundColor = '#fff';
+        //loading screen has a black background
+        this.game.stage.backgroundColor = '#00000';
 
-        //scaling options
+        //scaling
         this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 
         //game is centered horizontally
         this.scale.pageAlignHorizontally = true;
         this.scale.pageAlignVertically = true;
 
-        //screen size will be set automatically
+        //screen size (set automatically)
         this.scale.setScreenSize(true);
 
-        //physics (intergrated within Phaser)
+        //physics (integrated within Phaser)
         this.game.physics.startSystem(Phaser.Physics.ARCADE);
 
         this.state.start('Preload');
