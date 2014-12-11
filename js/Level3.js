@@ -1,4 +1,4 @@
-// Source Filename: SideScroller/js/Game.js
+﻿// Source Filename: SideScroller/js/Game.js
 // Author: Mark Sampirisi
 // Last Modified By: Mark Sampirisi
 // Date last Modified: Nov 14, 2014
@@ -6,25 +6,25 @@
 // It has "runner" style gameplay. The player must jump and duck over obstacles,
 // and collect coins to add to their highscore.
 
-// This is the code to play the game. It loads a custom game world made with Tiled and places all the game assets and allows player control.
+// This is the code to play the second level game. It loads a custom game world made with Tiled and places all the game assets and allows player control.
 // Update function checks constantly for game changes (like player death, hitting a collision layer, etc.)
 // Current Version: v. 1.0
 // Version History: https://github.com/MarkSampirisi/SideScrollerGame
 
 var SideScroller = SideScroller || {};
 
-SideScroller.Game = function () { };
+SideScroller.Level2 = function () { };
 
-SideScroller.Game.prototype = {
+SideScroller.Level2.prototype = {
 
     preload: function () {
         this.game.time.advancedTiming = true;
     },
     create: function () {
-        this.map = this.game.add.tilemap('level1');
+        this.map = this.game.add.tilemap('level2');
 
         //add tileset
-        this.map.addTilesetImage('tiles_spritesheet', 'gameTiles');
+        this.map.addTilesetImage('tiles_spritesheet2', 'gameTiles2');
 
         //create layers
         this.backgroundlayer = this.map.createLayer('backgroundLayer');
@@ -43,8 +43,8 @@ SideScroller.Game.prototype = {
         this.player = this.game.add.sprite(100, 300, 'player');
 
         //player initial score of zero
-            this.playerScore = 0;
-     
+        this.playerScore = 0;
+
         //enable physics on the player
         this.game.physics.arcade.enable(this.player);
 
@@ -79,7 +79,7 @@ SideScroller.Game.prototype = {
     //code to load my custom Tiled map. Code obtained from http://examples.phaser.io/
     findObjectsByType: function (type, map, layerName) {
         var result = new Array();
-        map.objects[layerName].forEach(function (element) {
+        this.map.objects[layerName].forEach(function (element) {
             if (element.properties.type === type) {
                 //Phaser uses top left, Tiled bottom left so we have to adjust
                 //also keep in mind that some images could be of different size as the tile size
@@ -161,13 +161,13 @@ SideScroller.Game.prototype = {
         }
     },
 
-    showLabels: function() {
+    showLabels: function () {
         //score text
-    var text = "0";
-    var style = { font: "20px Arial", fill: "#fff", align: "center" };
-    this.scoreLabel = this.game.add.text(this.game.width-50, this.game.height - 50, text, style);
-    this.scoreLabel.fixedToCamera = true;
-},
+        var text = "0";
+        var style = { font: "20px Arial", fill: "#fff", align: "center" };
+        this.scoreLabel = this.game.add.text(this.game.width - 50, this.game.height - 50, text, style);
+        this.scoreLabel.fixedToCamera = true;
+    },
     collect: function (player, collectable) {
         //play audio
         this.coinSound.play();
@@ -178,7 +178,7 @@ SideScroller.Game.prototype = {
         //remove sprite
         collectable.destroy();
     },
-    
+
     //create coins
     createCoins: function () {
         this.coins = this.game.add.group();

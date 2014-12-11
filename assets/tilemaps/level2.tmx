@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="6" tilewidth="70" tileheight="70">
+ <tileset firstgid="1" name="tiles_spritesheet2" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../../../../../../Pictures/tiles_spritesheet2.png" width="502" height="70"/>
+ </tileset>
+ <layer name="backgroundLayer" width="100" height="6">
+  <data encoding="csv">
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <layer name="blockedLayer" width="100" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup name="objectsLayer">
+  <object gid="3" x="875" y="348">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="646" y="350">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2660" y="138">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2731" y="139">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2806" y="138">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2876" y="138">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2730" y="350">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1498" y="236">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1413" y="299">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2243" y="279">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2452" y="281">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2955" y="87">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="3001" y="284">
+   <properties>
+    <property name="sprite" value="goldCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

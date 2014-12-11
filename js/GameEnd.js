@@ -20,11 +20,12 @@ SideScroller.GameEnd.prototype = {
         this.highestScore = Math.max(score, this.highestScore);
     },
     create: function () {
+
         //game end screen has a black background
         this.game.stage.backgroundColor = '#00000';
 
         //start game text
-        var text = "Click To Play Again";
+        var text = "Click to Return to Level Select";
         var style = { font: "30px Arial", fill: "#fff", align: "center" };
         var t = this.game.add.text(this.game.width / 2, this.game.height / 2, text, style);
         t.anchor.set(0.5);
@@ -40,8 +41,9 @@ SideScroller.GameEnd.prototype = {
 
     //check if user clicks the mouse
     update: function () {
+
         if (this.game.input.activePointer.justPressed()) {
-            this.game.state.start('Game');
+            this.game.state.start('LevelSelect');
         }
     }
 };

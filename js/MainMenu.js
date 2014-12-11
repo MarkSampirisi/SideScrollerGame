@@ -18,10 +18,10 @@ SideScroller.MainMenu.prototype = {
         this.background = this.game.add.tileSprite(0, 0, this.game.width, this.game.height, 'mainMenuBackground');
         this.background.scale.setTo(1);
     },
-    //check if mouse was clicked. If clicked, start the game.
+    //check if mouse was clicked. If clicked, start the level select screen.
     update: function () {
         if (this.game.input.activePointer.justPressed()) {
-            this.game.state.start('Game');
+            this.game.state.start('LevelSelect');
         }
     }
 };

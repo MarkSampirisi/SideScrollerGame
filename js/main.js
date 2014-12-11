@@ -17,7 +17,9 @@ SideScroller.game = new Phaser.Game(746, 420, Phaser.CANVAS, '');
 SideScroller.game.state.add('Boot', SideScroller.Boot);
 SideScroller.game.state.add('Preload', SideScroller.Preload);
 SideScroller.game.state.add('MainMenu', SideScroller.MainMenu);
-SideScroller.game.state.add('Game', SideScroller.Game);
+SideScroller.game.state.add('LevelSelect', SideScroller.LevelSelect);
+SideScroller.game.state.add('Level1', SideScroller.Level1);
+SideScroller.game.state.add('Level2', SideScroller.Level2);
+SideScroller.game.state.add('Level3', SideScroller.Level3);
 SideScroller.game.state.add('GameEnd', SideScroller.GameEnd);
-
 SideScroller.game.state.start('Boot');

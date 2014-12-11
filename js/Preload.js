@@ -23,8 +23,14 @@ SideScroller.Preload.prototype = {
 
         //load game assets
         this.load.tilemap('level1', 'assets/tilemaps/level1.json', null, Phaser.Tilemap.TILED_JSON);
+        this.load.tilemap('level2', 'assets/tilemaps/level2.json', null, Phaser.Tilemap.TILED_JSON);
+        //this.load.tilemap('level3', 'assets/tilemaps/level3.json', null, Phaser.Tilemap.TILED_JSON);
         this.load.image('mainMenuBackground', 'assets/images/MainMenu.png');
+        this.load.image('level1Button', 'assets/images/level1Button.png');
+        this.load.image('level2Button', 'assets/images/level2Button.png');
+        this.load.image('level3Button', 'assets/images/level3Button.png');
         this.load.image('gameTiles', 'assets/images/tiles_spritesheet.png');
+        this.load.image('gameTiles2', 'assets/images/tiles_spritesheet2.png');
         this.load.image('player', 'assets/images/player.png');
         this.load.image('playerDuck', 'assets/images/player_duck.png');
         this.load.image('playerDead', 'assets/images/player_dead.gif');
