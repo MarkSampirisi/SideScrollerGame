@@ -10,95 +10,189 @@
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
-7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <layer name="objectBackgroundLayer" width="100" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,
+0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <layer name="blockedLayer" width="100" height="6">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,5,5,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,
+2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
  <objectgroup name="objectsLayer">
   <object gid="3" x="875" y="348">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="646" y="350">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2660" y="138">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2731" y="139">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2806" y="138">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2876" y="138">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2730" y="350">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="1498" y="236">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="1413" y="299">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2243" y="279">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2452" y="281">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
   <object gid="3" x="2955" y="87">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>
-  <object gid="3" x="3001" y="284">
+  <object gid="3" x="3575" y="344">
    <properties>
-    <property name="sprite" value="goldCoin"/>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="3647" y="343">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="3719" y="342">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4409" y="208">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4548" y="366">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5013" y="344">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5471" y="347">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5881" y="348">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="6307" y="347">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="6635" y="72">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1834" y="206">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="3213" y="98">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4239" y="323">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4305" y="233">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4543" y="246">
+   <properties>
+    <property name="sprite" value="winterCoin"/>
     <property name="type" value="coin"/>
    </properties>
   </object>

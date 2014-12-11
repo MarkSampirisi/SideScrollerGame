@@ -29,6 +29,7 @@ SideScroller.Level2.prototype = {
         //create layers
         this.backgroundlayer = this.map.createLayer('backgroundLayer');
         this.blockedLayer = this.map.createLayer('blockedLayer');
+        this.spikeBackgoundLayer = this.map.createLayer('objectBackgroundLayer');
 
         //collision on blockedLayer
         this.map.setCollisionBetween(1, 100000, true, 'blockedLayer');

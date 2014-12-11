@@ -35,11 +35,12 @@ SideScroller.Preload.prototype = {
         this.load.image('playerDuck', 'assets/images/player_duck.png');
         this.load.image('playerDead', 'assets/images/player_dead.gif');
         this.load.image('goldCoin', 'assets/images/goldCoin.png');
+        this.load.image('winterCoin', 'assets/images/winterCoin.png');
         this.load.audio('coin', ['assets/audio/coin.wav', 'assets/audio/coin.wav']);
         this.load.audio('jumpSound', ['assets/audio/jump.wav', 'assets/audio/jump.wav']); //jump sound effect courtesy of http://themushroomkingdom.net/ User: Deezer
         this.load.audio('playerDied', ['assets/audio/dead.wav', 'assets/audio/dead.wav']); //death sound effect courtesy of http://themushroomkingdom.net/ User: Deezer
         this.load.audio('playerWon', ['assets/audio/win.wav', 'assets/audio/win.wav']); //win sound effect courtesy of http://soundbible.com/
-        this.load.audio('level1Music', ['assets/audio/level1Music.mp3', 'assets/audio/level1Music.mp3']); //music is Super Mario World World 1 property of Nintendo Corp. I do not own this music.
+        this.load.audio('level1Music', ['assets/audio/level1Music.mp3', 'assets/audio/level1Music.mp3']); //music is Super Mario World, World 1, property of Nintendo Corp. I do not own this music.
 
     },
     //start the main menu
