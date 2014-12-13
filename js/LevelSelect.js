@@ -20,13 +20,11 @@ SideScroller.LevelSelect.prototype = {
         this.game.backgroundColor = '#00000';
 
         level1Button = this.game.add.button(this.game.world - 0, 0, 'level1Button', this.level1Start);
-        //level1Button.anchor.setTo(0.5, 0.5);
-        level2Button = this.game.add.button(this.game.world.centerX - 0, 0, 'level2Button', this.level2Start);
-        //level2Button.anchor.setTo(0.5, 0.5);
-        level3Button = this.game.add.button(this.game.world.centerY - 0, 0, 'level3Button', this.level3Start);
-        //level3Button.anchor.setTo(0.5, 0.5);
+        level2Button = this.game.add.button(this.game.world.centerY - -35, 0, 'level2Button', this.level2Start);
+        level3Button = this.game.add.button(this.game.world.centerY - -287, 0, 'level3Button', this.level3Start);
     },
 
+    //these methods start the various levels
     level1Start: function () {
 
         SideScroller.game.state.start('Level1');
