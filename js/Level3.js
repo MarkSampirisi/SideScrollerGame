@@ -1,34 +1,36 @@
-﻿// Source Filename: SideScroller/js/Game.js
+﻿// Source Filename: SideScroller
 // Author: Mark Sampirisi
 // Last Modified By: Mark Sampirisi
-// Date last Modified: Nov 14, 2014
+// Date last Modified: Dec 12, 2014
 // Description: This is a mario-like side scrolling game made with Phaser.
 // It has "runner" style gameplay. The player must jump and duck over obstacles,
-// and collect coins to add to their highscore.
+// and collect coins to add to their highscore. There are 3 difficulty levels
+// to choose from.
 
-// This is the code to play the second level game. It loads a custom game world made with Tiled and places all the game assets and allows player control.
+// This is the code to play the third level. It loads a custom game world made with Tiled and places all the game assets and allows player control.
 // Update function checks constantly for game changes (like player death, hitting a collision layer, etc.)
-// Current Version: v. 1.0
+// Current Version: v. 2.0
 // Version History: https://github.com/MarkSampirisi/SideScrollerGame
 
 var SideScroller = SideScroller || {};
 
-SideScroller.Level2 = function () { };
+SideScroller.Level3 = function () { };
 
-SideScroller.Level2.prototype = {
+SideScroller.Level3.prototype = {
 
     preload: function () {
         this.game.time.advancedTiming = true;
     },
     create: function () {
-        this.map = this.game.add.tilemap('level2');
+        this.map = this.game.add.tilemap('level3');
 
         //add tileset
-        this.map.addTilesetImage('tiles_spritesheet2', 'gameTiles2');
+        this.map.addTilesetImage('tiles_spritesheet3', 'gameTiles3');
 
         //create layers
         this.backgroundlayer = this.map.createLayer('backgroundLayer');
         this.blockedLayer = this.map.createLayer('blockedLayer');
+        this.objectBackgoundLayer = this.map.createLayer('objectBackgroundLayer');
 
         //collision on blockedLayer
         this.map.setCollisionBetween(1, 100000, true, 'blockedLayer');

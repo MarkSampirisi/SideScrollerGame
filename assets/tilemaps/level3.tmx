@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="6" tilewidth="70" tileheight="70">
+ <tileset firstgid="1" name="tiles_spritesheet3" tilewidth="70" tileheight="70" spacing="2">
+  <image source="../../../../../../Pictures/tiles_spritesheet3.png" width="646" height="70"/>
+ </tileset>
+ <layer name="backgroundLayer" width="100" height="6">
+  <data encoding="csv">
+7,7,8,7,7,7,7,7,7,8,7,7,7,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,7,7,7,8,7,7,7,7,7,8,7,7,7,8,7,7,7,7,7,8,7,7,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,7,
+7,7,7,7,7,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,8,7,7,7,8,7,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,7,7,7,
+8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,8,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,9,9,9,9,9,9,9,9,9,9,9,9,7,7,7,7,7,7,7,7,7,7,9,9,9,9,9,9,9,9,9,9,7,7,7,7,7,7,9,9,9,9,9,9,9,9,9,9,9,9,9,9,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <layer name="objectBackgroundLayer" width="100" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="blockedLayer" width="100" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,5,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup name="objectsLayer">
+  <object gid="3" x="191" y="348">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="271" y="349">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="347" y="348">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="422" y="347">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="498" y="349">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1354" y="200">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1203" y="202">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1279" y="201">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1430" y="202">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1123" y="201">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1581" y="202">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1505" y="200">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1657" y="203">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1752" y="278">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="1834" y="347">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="2873" y="211">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5817" y="350">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5666" y="352">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5742" y="351">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5893" y="352">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5586" y="351">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="3220" y="347">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="3992" y="206">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="3289" y="345">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="6153" y="71">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="6650" y="351">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="6820" y="164">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4512" y="138">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4578" y="212">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="4645" y="283">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+  <object gid="3" x="5179" y="277">
+   <properties>
+    <property name="sprite" value="lavaCoin"/>
+    <property name="type" value="coin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

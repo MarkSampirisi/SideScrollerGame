@@ -1,13 +1,14 @@
-﻿// Source Filename: SideScoller
+﻿// Source Filename: SideScroller
 // Author: Mark Sampirisi
 // Last Modified By: Mark Sampirisi
-// Date last Modified: Nov 14, 2014
+// Date last Modified: Dec 12, 2014
 // Description: This is a mario-like side scrolling game made with Phaser.
 // It has "runner" style gameplay. The player must jump and duck over obstacles,
-// and collect coins to add to their highscore.
+// and collect coins to add to their highscore. There are 3 difficulty levels
+// to choose from.
 
 // This is the game end screen, it triggers when the player dies or beats the level. This screen keeps track of the player's high score.
-// Current Version: v. 1.0
+// Current Version: v. 2.0
 // Version History: https://github.com/MarkSampirisi/SideScrollerGame
 
 SideScroller.GameEnd = function () { };
